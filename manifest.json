@@ -3,6 +3,12 @@
   "name": "EliteTorrent Link Decoder",
   "version": "1.0",
 
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+
   "browser_specific_settings": {
     "gecko": {
       "id": "elitetorrent-link-decoder@example.com",
