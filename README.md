@@ -1,6 +1,6 @@
 # EliteTorrent Link Decoder (Firefox Extension)
 
-Extension para Firefox que detecta y descifra enlaces ofuscados en paginas compatibles de EliteTorrent, convirtiendo URLs codificadas en enlaces directos funcionales dentro de la propia web.
+Extension para Firefox que detecta y descifra enlaces ofuscados en paginas compatibles de EliteTorrent para que, al hacer clic en el fichero torrent, se abra el enlace directo sin redirecciones a otras webs.
 
 ## Descripcion
 
@@ -10,12 +10,13 @@ Flujo de descifrado aplicado:
 - Multiples intentos de decodificacion Base64 (hasta 5 capas)
 - Descifrado tipo Caesar con ROT13
 
-Con esto se elimina la necesidad de copiar y descifrar enlaces manualmente en los casos compatibles.
+Con esto se evita la cadena de redirecciones intermedias y la necesidad de copiar o descifrar enlaces manualmente en los casos compatibles.
 
 ## Caracteristicas
 
 - Ejecucion automatica al cargar la pagina
 - Sin interaccion del usuario
+- Al hacer clic en el torrent, acceso directo sin pasar por varias webs de redireccion
 - Procesamiento de enlaces en dominios de EliteTorrent
 - Sin telemetria ni recoleccion de datos
 
@@ -34,7 +35,8 @@ Con esto se elimina la necesidad de copiar y descifrar enlaces manualmente en lo
 ## Uso
 
 1. Navega a una pagina compatible de EliteTorrent.
-2. La extension intentara descifrar automaticamente los enlaces encontrados en la pagina.
+2. Haz clic en el enlace del torrent.
+3. La extension intentara descifrarlo automaticamente para abrir el destino final sin saltos por paginas intermedias.
 
 ## Privacidad
 
