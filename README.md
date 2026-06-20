@@ -1,6 +1,6 @@
-# EliteTorrent Link Decoder (Firefox Extension)
+# EliteTorrent Link Decoder (Firefox/Chrome Extension)
 
-Extension para Firefox que detecta y descifra enlaces ofuscados en paginas compatibles de EliteTorrent para que, al hacer clic en el fichero torrent, se abra el enlace directo sin redirecciones a otras webs.
+Extension para Firefox y Chrome que detecta y descifra enlaces ofuscados en paginas compatibles de EliteTorrent para que, al hacer clic en el fichero torrent, se abra el enlace directo sin redirecciones a otras webs.
 
 ## Descripcion
 
@@ -23,14 +23,27 @@ Con esto se evita la cadena de redirecciones intermedias y la necesidad de copia
 ## Compatibilidad
 
 - Firefox (Manifest V3)
+- Chrome (Manifest V3)
 - Dominios objetivo: `*.elitetorrent.com`
 
 ## Instalacion (modo desarrollo)
+
+### Firefox
 
 1. Abre Firefox y entra en `about:debugging`.
 2. Ve a "This Firefox".
 3. Haz clic en "Load Temporary Add-on...".
 4. Selecciona el archivo `manifest.json` de esta carpeta.
+
+### Chrome
+
+1. Abre Chrome y entra en `chrome://extensions`.
+2. Activa "Developer mode" (arriba a la derecha).
+3. Haz clic en "Load unpacked".
+4. Selecciona esta carpeta de la extension.
+
+Nota para Chrome:
+- Si quieres evitar avisos por claves especificas de Firefox, crea una variante del manifest sin el bloque `browser_specific_settings`.
 
 ## Uso
 
