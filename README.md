@@ -1,7 +1,7 @@
 # EliteTorrent Link Decoder (Firefox/Chrome Extension)
 
 Extension para Firefox y Chrome que detecta y descifra enlaces ofuscados en paginas compatibles de EliteTorrent para que, al hacer clic en el fichero torrent, se abra el enlace directo sin redirecciones a otras webs.
-
+https://addons.mozilla.org/es-ES/firefox/addon/elitetorrent-link-decoder/
 ## Descripcion
 
 Esta extension analiza los enlaces de la pagina y busca parametros codificados (por ejemplo, `?i=`) para intentar recuperar la URL real.
